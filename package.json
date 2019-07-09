@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
+    "dev": "node ssr-server.js",
     "build": "next build",
     "start": "next start"
   },
@@ -14,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
     "next": "^9.0.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
