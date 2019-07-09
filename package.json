@@ -8,7 +8,7 @@
     "dev": "node ssr-server.js",
     "build": "next build",
     "start": "next start",
-    "lint": "./node_modules/.bin/eslint \"**/*.jsx\" --ignore-pattern node_modules/ --fix"
+    "lint": "./node_modules/.bin/eslint \"**/*.js\" --ignore-pattern node_modules/ --fix && ./node_modules/.bin/eslint \"**/*.jsx\" --ignore-pattern node_modules/ --fix"
   },
   "keywords": [],
   "author": "Quinten Rivers",
@@ -28,12 +28,12 @@
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.2",
     "eslint": "^6.0.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.14.2",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-react": "^7.14.2"
   }
 }
