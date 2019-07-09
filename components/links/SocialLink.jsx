@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const HeaderSocialLink = (props) => {
-  return (
+const HeaderSocialLink = (props) => (
     <a
       target='_blank'
       href={props.href}
@@ -11,6 +10,5 @@ const HeaderSocialLink = (props) => {
         size={props.size} />
     </a>
   )
-}
 
 export default HeaderSocialLink
