@@ -1,4 +1,5 @@
 import Header from './Header';
+import Footer from './Footer';
 import Container from 'react-bootstrap/Container';
 
 const Layout = (props) => (
@@ -11,6 +12,7 @@ const Layout = (props) => (
 		/>
 		<Header />
 		<Container>{props.children}</Container>
+		<Footer />
 		<script src='https://unpkg.com/react/umd/react.production.js' crossOrigin />
 		<script
 			src='https://unpkg.com/react-dom/umd/react-dom.production.js'
